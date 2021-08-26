@@ -6,7 +6,7 @@ name = "pypi"
 [packages]
 pandas = "*"
 gym = "*"
-rocket-lander-gym = {editable = true, ref="27b64c7ade26d57f9f588967a8325b48c2d20551", git = "https://github.com/igor-cheb/Rocket_Lander_Gym.git"}
+rocket-lander-gym = {editable = true, git = "https://github.com/igor-cheb/Rocket_Lander_Gym.git"} #, ref="27b64c7ade26d57f9f588967a8325b48c2d20551"
 box2d-py = "*"
 matplotlib = "*"
 seaborn = "*"
