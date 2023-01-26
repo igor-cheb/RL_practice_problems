@@ -1,5 +1,3 @@
-#RL_practice_problems
-
 Several practice problems for key RL methods.
 
 **Tabular methods:** </br>
