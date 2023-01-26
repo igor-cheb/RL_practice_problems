@@ -1,6 +1,6 @@
 Several practice problems for key RL methods.
 
-**Tabular methods:** </br>
+**Tabular methods** </br>
 - 10 hand bandit problem (In Sutton/Barto section 2.3)
 - Simple gridworld (In Sutton/Barto fig. 4.1) - dynamic programming, policy improvement
 - Jack's car rental (In Sutton/Barto ex. 4.7) - dynamic programming, policy iteration
