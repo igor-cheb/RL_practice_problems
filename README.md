@@ -11,7 +11,7 @@ Several practice problems for key RL methods.
 -  Hard Racetrack - Dyna-Q with prioritised sweeping
 
 **Policy gradient methods**
-- REINFORCE
+- REINFORCE (https://huggingface.co/igorcheb/REINFORCE-LunarLanderContinuous-v2)
 - A2C
   - One network, actor and critic are updated after each episode
   - 2 networks, actor updated at episode end, critic is updated at every step of the trajectory
