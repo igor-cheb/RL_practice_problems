@@ -13,6 +13,6 @@ Several practice problems for key RL methods.
 **Policy gradient methods**
 - REINFORCE (https://huggingface.co/igorcheb/REINFORCE-LunarLanderContinuous-v2)
 - A2C
-  - One network, actor and critic are updated after each episode
-  - 2 networks, actor updated at episode end, critic is updated at every step of the trajectory
-  - 2 networks, both actor and critic are updated at each step of the trajectory
+  - One network, actor and critic are updated after each episode (works)
+  - 2 networks, actor updated at episode end, critic is updated at every step of the trajectory (works)
+  - 2 networks, both actor and critic are updated at each step of the trajectory (in process)
