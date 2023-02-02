@@ -13,8 +13,8 @@ Several practice problems for key RL methods.
 **Policy gradient methods**
 - REINFORCE (works: https://huggingface.co/igorcheb/REINFORCE-LunarLanderContinuous-v2)
 - A2C
-  - One network, actor and critic are updated after each episode (works)
-  - 2 networks, actor updated at episode end, critic is updated at every step of the trajectory (works)
-  - 2 networks, both actor and critic are updated at each step of the trajectory (works: https://huggingface.co/igorcheb/A2C-MountainCarContinuous-v0)
+  - One network, actor and critic are updated after each episode, MC rollout (works)
+  - 2 networks, actor updated at episode end, critic is updated at every step of the trajectory, MC rollout (works)
+  - 2 networks, both actor and critic are updated after n steps of the trajectory, TD (n) rollout (works: https://huggingface.co/igorcheb/A2C-MountainCarContinuous-v0)
 - PPO (planned)
 - SAC (planned)
